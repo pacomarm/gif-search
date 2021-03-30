@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests of GifGrid Item should show components correctly 1`] = `
+<Card
+  body={false}
+  className="cardd"
+>
+  <CardImg
+    alt="Un Título"
+    className="pic"
+    id="im"
+    src="https://local.paco.gpi"
+    variant="top"
+  />
+  <CardBody
+    className="hidden-mobile"
+  >
+    <CardTitle
+      id="tit"
+    >
+      Un Título
+    </CardTitle>
+  </CardBody>
+</Card>
+`;
