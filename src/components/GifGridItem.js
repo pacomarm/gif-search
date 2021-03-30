@@ -8,7 +8,7 @@ export const GifGridItem = ({title, url}) => {
         //     <img src={url} alt={title}/>
         //     <p> {title} </p>
         // </div>
-        <Card className="cardd" style={{ width: '13rem' }}>
+        <Card className="cardd">
             <Card.Img className="pic" variant="top" src={url} alt={title} />
             <Card.Body className="hidden-mobile">
                 <Card.Title>{title}</Card.Title>
